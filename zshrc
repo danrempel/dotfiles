@@ -50,7 +50,7 @@ alias sz='source ~/.zshrc'
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # rbenv config
-eval "$(rbenv init -)"
+eval "$(rbenv init - zsh)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
