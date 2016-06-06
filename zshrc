@@ -41,6 +41,11 @@ _load_settings "$HOME/.zsh/configs"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+alias ls="ls -FG"
+alias l="ls -l"
+alias la="ls -la"
+
+alias ez='vim ~/.zshrc'
 alias sz='source ~/.zshrc'
 
 # Local config

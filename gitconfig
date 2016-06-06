@@ -3,7 +3,7 @@
 [push]
   default = current
 [color]
-  ui = auto
+	ui = true
 [alias]
   aa = add --all
   ap = add --patch
@@ -28,3 +28,9 @@
 [user]
 	name = Dan Rempel
 	email = dan.rempel0@gmail.com
+[github]
+  user = danrempel
+[gitsh "color"]
+  default = cyan
+  untracked = yellow
+  modified = red
